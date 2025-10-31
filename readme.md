@@ -86,17 +86,18 @@ Abra um terminal na pasta raiz do projeto (a pasta que contém a pasta src). Exe
 
 **Windows (com encoding UTF-8):**
 ```bash
+# Windows
 javac -encoding UTF-8 -d . src/Main.java src/Algorithms/*.java src/GUI/*.java src/Util/*.java
-macOS ou Linux:
-Bash
-
+# macOS ou Linux:
 javac -d . src/Main.java src/Algorithms/*.java src/GUI/*.java src/Util/*.java
+```
 
-3. Execução
+### 3. Execução
 
 Após a compilação bem-sucedida (nenhum erro deve aparecer), execute a classe principal (Main):
-Bash
 
+```bash
 java Main
+```
 
 A interface gráfica do simulador será iniciada.
