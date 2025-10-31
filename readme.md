@@ -42,7 +42,7 @@ Simulação com 3 quadros: Sequência: 7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1
 
 Abaixo, o gráfico de barras gerado pela aplicação Swing para esta simulação:
 
-`![Screenshot do Simulador](image.png)`
+![Screenshot do Simulador](assets/image.png)
 ---
 
 A partir dos dados, observa-se que o algoritmo Ótimo, que serve como benchmark ideal, obteve o menor número de faltas (9), pois sempre remove a página que será usada mais tarde no futuro. O algoritmo FIFO apresentou o pior desempenho (15), o que é esperado devido à sua simplicidade. Os algoritmos LRU e Relógio apresentaram um desempenho extremamente próximos (12 e 11, respectivamente), demonstrando a eficácia do Relógio como uma aproximação eficiente do LRU sem o mesmo custo de implementação.
